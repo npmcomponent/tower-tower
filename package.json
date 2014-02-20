@@ -1,77 +1,30 @@
 {
-  "name": "tower",
-  "version": "0.5.11",
-  "main": "./index.js",
+  "name": "tower-tower",
   "description": "Small components for building apps, manipulating data, and managing a distributed infrastructure.",
-  "homepage": "http://towerjs.org/",
-  "main": "./index.js",
-  "keywords": [
-    "mvc",
-    "web-framework",
-    "express",
-    "tower",
-    "framework",
-    "node",
-    "client",
-    "server"
-  ],
-  "maintainers": [
-    {
-      "name": "Lance Pollard",
-      "email": "lancejpollard@gmail.com",
-      "web": "http://lancepollard.com"
-    },
-    {
-      "name": "Daniel Fagnan",
-      "web": "http://hydrocodedesign.com/"
-    }
-  ],
-  "contributors": [
-    "abovethewater",
-    "Dave Myron",
-    "edubkendo",
-    "j-mcnally",
-    "Jai-gouk Kim",
-    "Kristian Mandrup <kmandrup@gmail.com>",
-    "Lance Pollard <lancejpollard@gmail.com>",
-    "Nov Matake",
-    "scottkf <scott@tesoriere.com>",
-    "Sebastian Hoitz",
-    "TheHydroImpulse <dnfagnan@gmail.com>",
-    "Vyacheslav Voronchuk"
-  ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://mths.be/mit"
-    }
-  ],
-  "bugs": {
-    "url": "https://github.com/tower/tower/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/tower/tower.git"
-  },
-  "engines": {
-    "node": ">= 0.10.0"
-  },
-  "bin": {
-    "tower": "./bin/tower"
-  },
+  "version": "0.5.0",
+  "keywords": [],
+  "main": "index.js",
   "dependencies": {
-    "commander": "*",
-    "tower-server": "*",
-    "tower-cookbook": "*",
-    "tower-fs": ">= 0.5.0-pre2",
-    "tower-resource": "0.1.0",
-    "tower-query": "0.1.0",
-    "tower-adapter": "0.1.0",
-    "tower-router": "0.1.0",
-    "tower-validator": "0.1.0",
-    "tower-type": "0.1.0",
-    "tower-memory-adapter": "0.1.0",
-    "tower-view": "*",
-    "tower-server-route": "*"
-  }
+    "tower-resource": "git://github.com/npmcomponent/tower-resource.git",
+    "tower-query": "git://github.com/npmcomponent/tower-query.git",
+    "tower-adapter": "git://github.com/npmcomponent/tower-adapter.git",
+    "tower-client-router": "git://github.com/npmcomponent/tower-client-router.git",
+    "tower-route": "git://github.com/npmcomponent/tower-route.git",
+    "tower-validator": "git://github.com/npmcomponent/tower-validator.git",
+    "tower-type": "git://github.com/npmcomponent/tower-type.git",
+    "tower-attr": "git://github.com/npmcomponent/tower-attr.git",
+    "tower-param": "git://github.com/npmcomponent/tower-param.git",
+    "tower-content": "git://github.com/npmcomponent/tower-content.git",
+    "tower-template": "git://github.com/npmcomponent/tower-template.git",
+    "tower-memory-adapter": "git://github.com/npmcomponent/tower-memory-adapter.git",
+    "tower-directive": "git://github.com/npmcomponent/tower-directive.git",
+    "tower-load": "git://github.com/npmcomponent/tower-load.git",
+    "tower-emitter": "git://github.com/npmcomponent/tower-emitter.git",
+    "tower-operator": "git://github.com/npmcomponent/tower-operator.git",
+    "tower-expression": "git://github.com/npmcomponent/tower-expression.git",
+    "tower-element": "git://github.com/npmcomponent/tower-element.git",
+    "tower-list-directive": "git://github.com/npmcomponent/tower-list-directive.git",
+    "tower-interpolation-directive": "git://github.com/npmcomponent/tower-interpolation-directive.git"
+  },
+  "license": "MIT"
 }
